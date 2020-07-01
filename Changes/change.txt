@@ -1,0 +1,19 @@
+Product_info  -> Change (Add field unit_name , product_code);
+
+order_info  -> Change (Add field order_place);
+
+product_unit_name -> table_inserting();
+
+employee_salary_log -> table_inserting();
+
+catering_info -> table_inserting();
+
+catering_log -> table_inserting();
+
+order_details  -> Change (Add field sale_prices);
+
+stuff_info -> table_inserting();
+
+stuff_info -> table_inserting();
+
+stuff_order_info -> table_inserting();

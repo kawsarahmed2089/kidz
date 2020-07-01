@@ -1,0 +1,1647 @@
+﻿.scripts_div{
+   display:none;
+}
+.f_body{
+	margin:0px;
+	position:relative;
+	padding:0px;
+	background-color:#FFFFFF;
+}
+
+#transactio_amount_date_id,#product_sale_log_from1,#transactio_party_nam_select_id,#transactio_client_nam_select_id,#transactio_type_nam_id,#new_due_summery_form,#new_booking_item_entr1,#new_booking_item_edit1,.right-hiden,.arrow_img2,#entertain_setup1,#entertain_entry1,#entertain_edit1,#tavle_designs1,#invoice_reali_form1,#update_new_sale_order_info1,#new_room_credit_from1,#catering_item_log_from1,#new_booking_other_entr1,#booking_other_menu_edit1{
+	display:none;
+}
+
+#open_sales_id1, #stuff_entry1 ,#stuff_edit1,#stuff_setup1,#stuff_numorder,#new_stuf_summery_form,#booking_info1,#booking_entry1,#booking_edits1,#credit_transactions1,#transaction_entry1,#transactio_stuffi_nam_select_id{
+	display:none;
+}
+#add_office_discount_carge,#add_order_cancel_reason,#new_cashbox_edit1,#cancel_order_reason1,#login_form1,#order_bill_entry1,#report_info1,#input_waitername,#report_summ_form_view1,#expens_summ_form_view1,#new_entertainment_form,#new_complmen_summery_form,#new_servtoken_form,#new_invoiceid_form,#table_split1,#new_table_edit1,#new_table_join1,#usage_resource1,#usage_resource_entr1,#new_unitname_entry1,#salary_log1,#salary_entry1,#salary_edite1,#catering_entry1,#catering_edit1,#catering_log1,#new_catering_log_entr1,#expense_edit1,#new_options_editt1,#quantity_prep_editt1{
+	 display:none;
+}
+.logout_id{
+width: 50px;
+height: 50px;
+margin-top: 30px;
+margin-right: 30px;
+float:left;
+cursor: pointer;
+}
+
+.header1{
+	text-align:center;
+	background-color:rgba(150,150,150,0.1);
+	border-bottom:1px rgba(100,100,100,0.3) solid;
+}
+.header1 *{
+	margin:0px auto;
+	padding:1px 0px 1px 0px;
+}
+
+.for_hover{
+   position:relative;
+}
+.for_hover ul{
+	position:absolute;
+	z-index:10;
+	top:-242px;
+	left:225px;
+}
+.for_hover:hover ul{
+	display:inline;
+}
+
+.for_button{
+	margin:0px 0px 5px 0px;
+	padding:0px;
+}
+.for_2button{
+	float:right;
+}
+
+.for_2button button:first-child{
+	border-radius:0px;
+}
+.for_2button button:last-child{
+	border-radius:0px;
+}
+
+.for_1button button:first-child{
+	border-radius:0px;
+}
+.for_1button button:last-child{
+	border-radius:0px;
+}
+#country_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#country_discrip .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#catag_dis_on_sale_info .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#catag_dis_on_sale_info .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+
+@media screen and (max-width: 1000px) {
+  .for_2button{
+   float:left;
+   margin:0px auto;
+}
+}
+
+.for_3ndmenu{
+	margin:1px auto;
+	position:relative;
+	margin:2px auto 5px auto;
+}
+
+.mid_div{
+	width:300px;
+	margin:0px auto;
+}
+.mid_div div:first-child{
+	text-align:center;
+	width:50%;
+	float:left;
+}
+.mid_div div:last-child{
+	text-align:center;
+	width:50%;
+	float:right;
+}
+
+.for_3ndmenu button{
+	position:absolute;
+	right:15px;
+}
+
+@media screen and (max-width: 500px) {
+.for_3ndmenu button{
+	position:absolute;
+	left:15px;
+	top:20px;
+}
+.mid_div{
+	width:100%;
+	margin:0px auto 20px auto;
+}
+
+.mid_div div:first-child{
+	text-align:center;
+}
+.mid_div div:last-child{
+	text-align:center;
+}
+
+}
+
+
+.maincontent{
+	position:relative;
+	margin:0px auto;
+	height:495px;
+	overflow:hidden;
+}
+
+.for_footer{
+	height:30px;
+	line-height:30px;
+	margin:0px auto;
+	background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+	border-top:1px #E1E1E8 solid;
+}
+
+.for_bold{
+	font-weight:bold;
+}
+
+
+.occumpancy{
+	width:120px;
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	right:-50px;
+	top:55px;
+	border-radius:3px;
+	z-index:100;
+	-webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.occumpancy_div{
+   background-color:aqua; 
+   position:absolute;
+   padding:0px;
+   height:125px;
+   width:22px;
+   z-index:200;
+   right:0px;
+   top:0px;
+}
+
+.occumpancy_div:hover .side_show{
+	display:block;	
+}
+
+
+.for_size{
+	width:120px;
+}
+
+.filter{
+	width:100px;
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	bottom:-2px;
+	left:2px;
+	text-align:center;
+	border-radius:3px;
+	z-index:100;
+}
+
+.occumpancy_div1{
+   background-color:aqua; 
+   position:absolute;
+   padding:0px;
+   height:22px;
+   width:125px;
+   z-index:200;
+   left:15px;
+   bottom:0px;
+}
+
+.occumpancy_div1:hover .side_show2{
+	display:block;
+}
+
+
+.for_display{
+	height:495px;
+	position:relative;
+	overflow:hidden;
+}
+
+.for_change_but{
+	border:0px #FFFFFF none;
+	box-shadow:0px 0px 0px 0px aliceblue;
+	border-radius:0px;
+}
+
+.show_result{
+   width:100%;
+   padding:0px 38px 0px 0px;
+   height:473px;
+   position:absolute;
+}
+.rescon{
+	height:473px;
+	margin:0px auto;
+	padding:3px;
+	border:thin #DDDDDD solid;
+	overflow:hidden;
+	position:relative;
+}
+
+.data_plan{
+   position:absolute;
+   top:2px;
+   bottom:2px;
+   left:2px;
+   right:2px;
+   border:1px #E5E5E5 solid;
+   overflow-y:auto;
+   overflow-x:auto;
+}
+
+
+.side_show{
+	position:absolute;
+	width:250px;
+	height:500px;
+	display:block;
+	top:0px;
+	right:20px;
+	background:#F7F7F9;
+	border:thin #DDDDDD solid;
+	z-index:500;
+	display:none;
+}
+
+.side_show .inshow1{
+	width:98%;
+	margin:0px auto;
+}
+
+.side_show2{
+	position:absolute;
+	height:120px;
+	width:100%;
+	padding:2px 23px 0px 15px;
+	display:block;
+	bottom:20px;
+	right:0px;
+	left:0px;
+	display:none;
+	z-index:300;
+	background-color:#CC66FF;
+}
+
+.inshow2{
+  width:100%;
+}
+
+.npbox{
+	height:100%;
+	width:100%;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	margin:0px;
+	padding:0px;
+	z-index:3000;
+	display:none;
+	
+}
+
+.box1{
+   margin:0px;
+   padding:0px;
+   min-width:450px;
+   min-height:65px;
+   max-height:1000px;
+   max-width:1370px;
+   top:30px;
+   left:50px;
+   position:absolute;
+   z-index:5000;
+   border-radius:5px;
+   background-color:rgba(240, 240, 240, 0.7);
+   box-shadow:2px 2px 5px 2px rgba(100,100,100,0.4);
+   overflow:hidden;
+   display:none;
+}
+
+.box_title{
+	height:30px;
+	width:100%;
+	min-height:30px;
+	line-height:30px;
+	overflow:hidden;
+	margin:0px;
+	top:0px;
+	left:0px;
+	padding:0px 0px 0px 10px;
+	position:absolute;
+	cursor:default;
+	z-index:5;
+	background-color: steelblue;
+	border-radius: 5px 5px 0px 0px;
+}
+.box_cross{
+	width:40px;
+	height:25px;
+	line-height:25px;
+	background-color:#FF5050;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:18px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+
+.box_cross:hover{
+	background-color:#FF0000;
+}
+
+.box_content{
+	padding:30px 5px 5px 5px;
+	margin:0px auto;
+	position:relative;
+	width:100%;
+	height:100%;
+
+}
+
+.box_content .in_conbox{
+	width:100%;
+	height:100%;
+	padding:2px;
+	position:relative;
+	border:1px #E1E1E8 solid;
+	background-color:#FFFFFF;
+}
+
+
+.tooltip  {
+    width:auto;
+    display:none;
+    background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+    background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff));
+    font-size:12px;
+    height:37px;
+    color:#000000; 
+    z-index: 150;
+    opacity:1;
+    border:0px #EBEBEB solid;
+    border-radius:0px;
+    box-shadow:0pz 0pz 2pz 1pz rgba(150,150,150,0.3);
+}
+#ddd{
+	text-shadow: 0 0 2px #FFFFFF;
+}
+
+.evey_tile{
+	display:none;
+}
+
+#new_entery1,#reservlist1,#stay_list1,#guest_check_in1,#guest_check_out1,#clients1,#guest_list1,#invoices1,#pay_center1,#comision_center1,#close_cash_box1,#optionss1{
+	display:none;
+}
+
+#rooms_info1,#block_rooms1,#property_info1{
+	display:none;
+}
+
+
+.internal_title{
+	background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 54%);
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 54%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(54%,#e5e5e5));
+    border-top:1px #E1E1E8 solid;
+    border-right:1px #E1E1E8 solid;
+    border-left:1px #E1E1E8 solid;
+    position:absolute;
+    left:2px;
+    right:2px;
+    top:2px;
+}
+
+.internal_box2{
+	/*background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%);
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#eeeeee 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%,#eeeeee 100%);*/
+    background-color:#F7F7F9;
+    border-top:1px #E1E1E8 solid;
+    border-right:1px #E1E1E8 solid;
+    border-left:1px #E1E1E8 solid;
+}
+
+.internal_fistb{
+	position:absolute;
+    left:2px;
+    right:2px;
+    top:23px;
+}
+
+.internal_fistc{
+	position:absolute;
+    left:2px;
+    right:2px;
+    top:104px;
+}
+
+.internal_fistd{
+    position:absolute;
+    left:2px;
+    right:2px;
+    top:145px;
+    height:373px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    border-top:1px #E1E1E8 solid;
+    border-right:1px #E1E1E8 solid;
+    border-left:1px #E1E1E8 solid;
+}
+
+.internal_box3{
+	/*background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%);
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#eeeeee 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%,#eeeeee 100%);*/
+    background-color:#F7F7F9;
+    border-top:1px #E1E1E8 solid;
+    border-right:1px #E1E1E8 solid;
+    border-left:1px #E1E1E8 solid;
+}
+
+.internal_boxlst{
+   border-bottom: 1px #E1E1E8 solid; 
+   position:absolute;
+   bottom:0px;
+   left:2px;
+   right:2px;
+   bottom:2px;
+   top:540px;
+}
+
+.internal_prelst{
+   position:absolute;
+   bottom:0px;
+   left:2px;
+   top:518px;
+   right:2px;
+   bottom:43px;
+}
+
+
+.reservlist{
+	width:1170px;
+	height:620px;
+	margin:0px auto;
+	overflow:auto;
+}
+
+#tabile_id th{
+	font-weight:normal;
+	font-size:12px;
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+}
+
+.thnormal th{
+	font-weight:normal;
+	font-size:12px;
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+}
+
+
+.for_table th{
+	font-weight:normal;
+	font-size:12px;
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+}
+
+.for_table_center th{
+	font-weight:normal;
+	font-size:12px;
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	text-align:center;
+}
+
+
+
+.for_table_bold th{
+	font-weight:normal;
+	font-size:12px;
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+	font-weight:bold;
+}
+
+.for_close{
+	float:right;
+}
+
+
+.property_info{
+	width:750px;
+	height:620px;
+	margin:0px auto;
+	overflow:auto;
+}
+
+
+.rooms_info{
+	width:650px;
+	height:530px;
+	margin:0px auto;
+	overflow:auto;
+}
+
+.for_room_table{
+	overflow-x:hidden;
+	overflow-y:auto;
+	height:311px;
+}
+
+.border_top{
+	border-top:1px #DDDDDD solid;
+}
+
+.border_bottom{
+   border-bottom:1px #DDDDDD solid;
+}
+
+/* All Box Level 2 */
+.box_2_back{
+	z-index:5500;
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	overflow: hidden;
+}
+
+.box_2{
+	min-height:65px;
+	min-width:450px;
+	max-height:630px;
+	max-width:1170px;
+	top:30px;
+    left:50px;
+   // border-radius:0px 0px 3px 3px;
+    position:fixed;
+    background-color:rgba(240, 240, 240, 0.7);
+    box-shadow:2px 2px 5px 2px rgba(100,100,100,0.4);
+    overflow:hidden;
+    padding:0px 0px 5px 0px;
+    z-index:10000;
+	border-radius: 5px;
+}
+
+.box_2_title{
+	height:30px;
+	width:100%;
+	min-height:30px;
+	line-height:30px;
+	overflow:hidden;
+	margin:0px;
+	top:0px;
+	left:0px;
+	padding:0px 0px 0px 0px;
+	position:absolute;
+	cursor:default;
+	z-index:5;
+	background-color: thistle;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.box2_cross{
+	width:30px;
+	height:25px;
+	line-height:25px;
+	background-color:#FF5050;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:18px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+
+.box2_cross:hover{
+   background-color:#FF0000;
+}
+
+.box_2_cotent{
+	padding:30px 5px 5px 5px;
+	margin:0px auto;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+.box_2_cotent_in{
+	width:100%;
+	height:100%;
+	padding:2px;
+	position:relative;
+	border:1px #E1E1E8 solid;
+	background-color:#FFFFFF;
+}
+
+#for_box2,#bb2{
+	display:none;
+}
+/* All Box Level 2 */
+
+.new_room{
+	height:280px;
+	width:450px;
+}
+
+
+#new_room1{
+	display:none;
+}
+
+.new_room_edit{
+	height:280px;
+	width:450px;
+}
+
+
+#new_room_edit1{
+	display:none;
+}
+
+
+/* Box Level 3 */
+.box_3_back{
+	z-index:10005;
+	position:fixed;
+	height:100%;
+	width:100%;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	overflow: hidden;
+}
+
+.box_3{
+	min-height:65px;
+	min-width:450px;
+	max-height:630px;
+	max-width:1170px;
+	top:30px;
+    left:50px;
+    position:fixed;
+    background-color:rgba(240, 240, 240, 0.7);
+    box-shadow:2px 2px 5px 2px rgba(100,100,100,0.4);
+    overflow:hidden;
+    padding:0px 0px 5px 0px;
+    z-index:11000;
+	border-radius:5px;
+}
+
+.box_3_title{
+	height:30px;
+	width:100%;
+	min-height:30px;
+	line-height:30px;
+	overflow:hidden;
+	margin:0px;
+	top:0px;
+	left:0px;
+	padding:0px 0px 0px 0px;
+	position:absolute;
+	cursor:default;
+	z-index:5;
+	background-color: yellowgreen;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.box3_cross{
+	width:30px;
+	height:25px;
+	line-height:25px;
+	background-color:#FF5050;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:18px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	cursor:pointer;
+}
+
+.box3_cross:hover{
+   background-color:#FF0000;
+}
+
+.box_3_cotent{
+	padding:30px 5px 5px 5px;
+	margin:0px auto;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+
+
+.box_3_cotent_in{
+	width:100%;
+	height:100%;
+	padding:2px;
+	position:relative;
+	border:1px #E1E1E8 solid;
+	background-color:#FFFFFF;
+}
+
+
+#for_box3,#bb3{
+	display:none;
+}
+
+
+
+
+/* Box Level 3 */
+
+
+.tex_areasige{ 
+  width: 343px; 
+  min-width:343px; 
+  max-width:343px; 
+
+  height:74px; 
+  min-height:74px;  
+  max-height:74px;
+}
+
+.room_type_new{
+	height:334px;
+	width:450px;
+}
+
+#room_type_new1{
+	display:none;
+}
+
+ #room_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+ #room_discrip .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+    }
+    
+#htl_dis .ui-selecting, #entertains_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#htl_dis .ui-selected , #entertains_discrip .ui-selected { 
+    background:rgba(220,220,220,0.6);
+    }
+#floor_dis .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#floor_dis .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#product_discrip.ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#product_discrip.ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#type_dis .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#type_dis .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#season_dis .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#season_dis .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#rates_dis .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#rates_dis .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#corp_discc .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#corp_discc .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#corp_room_rate_dis .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#corp_room_rate_dis .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+
+#clients_info_dis .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+    
+ }
+#clients_info_dis .ui-selected { 
+    
+    background:rgba(220,220,220,0.6);
+    
+}
+#extra_servic_type_dis .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#extra_servic_type_dis .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#package_discrip .ui-selecting ,#prepar_optio_discriptt .ui-selecting{
+    background:rgba(220,220,220,0.4);
+ }
+#package_discrip .ui-selected ,#prepar_optio_discriptt .ui-selected{
+    background:rgba(220,220,220,0.6);
+}
+#stuffs_discrip .ui-selecting{
+    background:rgba(220,220,220,0.4);
+ }
+#stuffs_discrip .ui-selected{
+    background:rgba(220,220,220,0.6);
+}
+.room_class{
+    display: none;
+}
+
+.max_width500{
+    max-width: 500px;
+}
+
+.max_width550{
+    max-width: 550px;
+}
+
+ .change,.optio,.backup,.accoun,.block_rooms,.cash_boxes,.currency_exchanges_rate,
+.currency_denominations,.seasons,.business_sources,.client_types,.client_tittles,.document_types,.payment_types,.account_types,.extra_service_types,
+.business_source_types,.rates_configuration,.tax_defination,.extra_service,.invoice_center,.payment_center,.commision_center,.open_cash_box,.close_cash_boxxx,
+.new_group_reservation,.group_reservation_list,.group_stay_list,.clientsss,.user_manual,.activate_product,.about_us,.guest_per_country,
+.guest_per_business_source,.payments,.comissions_per_business_source,.cash_box_closing,.daily_revenues_forecate,.room_status,.occupancy_per_day,.occupancy_per_room,
+.daily_summary,.stays_not_checked_out_on_time,.confirmed_reservations_not_checked_in_on_time,.reservation_automatically_cancled,.reservations_expiring_today,
+.country_typ_entry,.country_type_edit,.extra_serv_type_entry
+{
+	height:300px;
+	width:450px;
+}
+.new_reservation
+{
+	height:550px;
+	width:450px;
+}
+
+.corporate_type{
+    height:530px;
+	width:1000px;
+}
+
+.users,.rate_type{
+	height:530px;
+	width:550px;
+	margin:0px auto;
+}
+
+.hotel_setup{
+    width: 750px;
+    height: 530px;
+}
+.corp_typ_entry,.corporate_type_edit,.corporateEntry{
+    width: 550px;
+    height: 425px;
+}
+.countries{
+	height:480px;
+	width:450px;
+}
+
+.room_rate_entry,.rate_edite{
+    height: 240px;
+    width: 500px;
+}
+.new_hotel_setup{
+    width: 550px;
+    height: 245px;
+}
+.new_hotel_edi{
+    width: 550px;
+    height: 245px;    
+}
+
+
+.floor_info{
+    height:530px;
+	width:550px;
+	margin:0px auto;
+}
+
+.floor_setup,.floor_edit{
+    height: 200px;
+    width: 500px;
+}
+
+.room_type,.extra_service_types{
+    height: 530px;
+    width: 750px;
+}
+
+.add_room_typeso{
+	height:334px;
+	width:450px;
+}
+.edi_room_typeso{
+	height:334px;
+	width:450px;   
+}
+.seasons{
+    height: 530px;
+    width: 650px;  
+}
+
+.seasion_add,.seasion_edi{
+    height: 251px;
+    width: 550px;     
+}
+
+.corporate_room{
+    height: 530px;
+    width: 750px;  
+}
+
+.add_corporate_room,.edi_corporate_room{
+    height: 275px;
+    width: 550px;
+}
+
+.clien{
+    height: 584px;
+    width: 1160px;
+}
+.clients_info, .edi_clients_info{
+    height: 623px;
+    width: 1000px;    
+}
+
+#room_type_new1, #room_type1, #rate_types1, #users1, #corporate_type1,#change_user1,#optio1, #backup1,#clien1,#accoun1,#block_rooms1,#cash_boxes1,
+#currency_exchanges_rate1,#currency_denominations1,#seasons1,#countries1, #business_sources1,#client_types1,#client_tittles1,#document_types1,#payment_types1,
+#account_types1,#extra_service_types1,#business_source_types1,#rates_configuration1,#tax_defination1,#extra_service1,#invoice_center1,#payment_center1,
+#commision_center1,#open_cash_box1,#close_cash_boxxx1,#new_reservation1,#new_group_reservation1,#group_reservation_list1,#group_stay_list1,#clientsss1,
+#user_manual1,#activate_product1,#about_us1,#guest_per_country1,#guest_per_business_source1,#payments1,#comissions_per_business_source1,#cash_box_closing1,
+#daily_revenues_forecate1,#room_status1,#occupancy_per_day1,#occupancy_per_room1,#daily_summary1,#stays_not_checked_out_on_time1,#confirmed_reservations_not_checked_in_on_time1,
+#reservation_automatically_cancled1,#reservations_expiring_today1,#hotel_setup1,#floor_info1,#new_hotel_setup1,#new_hotel_edi1,#floor_setup1,#floor_edit1,#add_room_typeso1,#edi_room_typeso1,
+#seasion_add1,#seasion_edi1,#seasion_add1,#room_rate_entry1,#rate_edit1,#corporate_type_edit1,#corp_typ_entry1,#corporate_room1,
+#add_corporate_room1,#edi_corporate_room1,#corporateEntry1,.clients_info,.edi_clients_info,#country_typ_entry1,
+#country_type_edit1,#room_reser_ne1,#extra_serv_type_entry1,#extra_serv_type_edi1
+{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* date pic */
+
+.ui-datepicker {
+background-color: #fff;
+border: 1px solid #66AFE9;
+border-radius: 4px;
+box-shadow: 0 0 8px rgba(102,175,233,.6);
+display: none;
+margin-top: 4px;
+padding: 10px;
+width: 240px;
+}
+.ui-datepicker a,
+.ui-datepicker a:hover {
+text-decoration: none;
+}
+.ui-datepicker a:hover,
+.ui-datepicker td:hover a {
+color: #2A6496;
+-webkit-transition: color 0.1s ease-in-out;
+-moz-transition: color 0.1s ease-in-out;
+-o-transition: color 0.1s ease-in-out;
+transition: color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-header {
+margin-bottom: 4px;
+text-align: center;
+}
+.ui-datepicker .ui-datepicker-title {
+font-weight: 700;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+cursor: default;
+font-family: 'Glyphicons Halflings';
+-webkit-font-smoothing: antialiased;
+font-style: normal;
+font-weight: normal;
+height: 20px;
+line-height: 1;
+margin-top: 2px;
+width: 30px;
+}
+.ui-datepicker .ui-datepicker-prev {
+float: left;
+text-align: left;
+}
+.ui-datepicker .ui-datepicker-next {
+float: right;
+text-align: right;
+}
+.ui-datepicker .ui-datepicker-prev:before {
+content: "\e079";
+}
+.ui-datepicker .ui-datepicker-next:before {
+content: "\e080";
+}
+.ui-datepicker .ui-icon {
+display: none;
+}
+.ui-datepicker .ui-datepicker-calendar {
+table-layout: fixed;
+width: 100%;
+}
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+text-align: center;
+padding: 4px 0;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+border-radius: 4px;
+-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+-moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+-o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover {
+background-color: #eee;
+cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-calendar td a {
+text-decoration: none;
+text-align: center;
+}
+.ui-datepicker .ui-datepicker-current-day {
+background-color: #4289cc;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+color: #fff;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+background-color: #fff;
+cursor: default;
+}
+
+.ui-datepicker-today a.ui-state-highlight {
+    border-color: #d3d3d3;
+    background-color: #e6e6e6;
+    color: #555555;    
+}
+.ui-datepicker-today.ui-datepicker-current-day a.ui-state-highlight {
+    border-color: #aaaaaa;
+    background-color: #ffffff;
+    color: #212121;
+}
+
+/* date pic */
+
+
+
+.seperat1{
+    width:100%;
+	height:1px;
+	margin:0px;
+}
+
+.seperat2{
+    width:100%;
+	height:2px;
+	margin:0px;
+}
+
+.seperat3{
+    width:100%;
+	height:3px;
+	margin:0px;
+}
+
+.seperat5{
+    width:100%;
+	height:5px;
+	margin:0px;
+}
+
+.seperat10{
+    width:100%;
+	height:10px;
+	margin:0px;
+}
+
+.seperat12{
+    width:100%;
+	height:12px;
+	margin:0px;
+}
+
+.seperat15{
+    width:100%;
+	height:15px;
+	margin:0px;
+}
+
+
+
+.fileUpload {
+	position:absolute;
+	top:40px;
+	right:10px;
+	border-radius:1px;
+	overflow: hidden;
+	border:1px #999999 solid;
+}
+.mmm input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+
+
+
+/* For Restaurant Management System */
+.item_menu_main{
+	width: 1300px;
+}
+.arrow_img{
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	top: 300px;
+	right: 0;
+	z-index: 4999;
+	cursor: pointer;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.arrow_img2{
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	top: 300px;
+	left: 0;
+	z-index: 4999;
+	cursor: pointer;
+}
+.item_menu{
+	margin:0px;
+	float: left;
+	display: inline;
+	width: auto;
+}
+.sales_item{
+	height: auto;
+	float: left;
+	display: inline;
+	margin-right: 40px;
+}
+#right-side{
+	float: left;
+    width: 394px;
+}
+.right-hiden{
+	height: auto;
+	float: left;
+	display: none;
+}
+.right-show{
+	float: left;
+}
+.pos_button :hover{
+	background-image: url('element_image/pos_hover.jpg');
+}
+.pos_terminal{
+width: 1200px;
+min-height: 514px;
+}
+#add_new_sale_order_info1,#new_product_edit1,#pos_terminal1,#sale_info1,#product_info1,#new_product_entry1,#new_category_entry1,#product_catagories1,#table_layout1,#new_table_entry1,#preparation_options1,#new_options_entry1,#quantity_prep_entry1,#expense_system1,#expense_entry1,#stock_system1,#stock_entry1,#package_products1,#new_package_entry1,#new_category_edit1,#add_service_charg,#add_payment_carge,#invoice_info1,#cash_boxes1,#new_cashbox_entry1,#order_cancl_raeson1,#room_numorder,#entetainment_numorder,#catering_items1{
+	display:none;
+}
+.sale_info{
+width: 1380px;
+min-height: 1000px;
+}
+.invoice_info{
+width: 1180px;
+min-height: 680px;
+}
+.package_products{
+width: 1080px;
+min-height: 580px;
+}
+.product_info,.new_product_entry,.new_category_entry,.product_catagories,.table_layout,.expense_system,.stock_system{
+width: 650px;
+height: 600px;
+}
+.stock_entry{
+width: 650px;
+height: 400px;
+}
+.new_package_entry{
+width: 650px;
+height: 400px;
+}
+.new_table_entry,.expense_entry{
+width: 650px;
+height: 450px;
+}
+.booking_entry{
+width: 850px;
+height: 650px;
+}
+.new_unitname_entry,.new_caash_entry{
+width: 650px;
+height: 300px;
+}
+.new_caash_edit{
+width: 650px;
+height: 700px;
+}
+.order_cancl_reason{
+width: 650px;
+height: 550px;
+}
+.add_new_sale_info{
+width: 900px;
+height: 600px;
+}
+.open_sales_id{
+width: 650px;
+height: 460px;
+}
+.cash_boxes{
+width: 850px;
+height: 580px;
+}
+.report_info{
+width: 850px;
+height: 450px;
+}
+.salary_info{
+width: 850px;
+height: 650px;
+}
+.booking_info{
+width: 1250px;
+height: 800px;
+}
+.preparation_options{
+width: 450px;
+height: 500px;
+padding-left: 500px;
+}
+.quantity_prep_entry{
+width: 650px;
+height: 500px;
+}
+.catering_log_view{
+width: 750px;
+height: 600px;
+}
+.new_options_entry{
+width: 650px;
+height: 250px;
+}
+.catering_edit1{
+width: 650px;
+height: 350px;
+}
+.table_tr{
+width: auto;
+height: 25px;
+}
+.login_form1{
+width: 600px;
+height: 280px;
+}
+.stay_list{
+    height: 590px;
+    width: 1100px;
+}
+.new_table_split{
+width: 600px;
+height: 480px;
+}
+.salary_entry{
+width: 650px;
+height: 530px;
+}
+.order_bill_entry{
+width: 550px;
+height: 480px;
+}
+.new_entertainment_form,.new_servtoken_form,.new_invoiceid_form{
+width: 500px;
+height: 400px;
+}
+.new_compliment_form{
+width: 500px;
+height: 450px;
+}
+.table_td{
+float:left;
+width: auto;
+height: 25px;
+border: 1px solid #f3f3f3;
+padding: 1px;
+}
+
+.thumbnails{
+width: 70px;
+height: 60px;
+line-height:15px;
+box-sizing: border-box;
+margin: 2px 0 2px 5px;
+padding: 0px;
+float:left;
+text-align: center;
+border: 1px solid #AEBDA6;
+cursor: pointer;
+}
+#add_office_servce_carge,#add_office_dunt_carge,#add_paymen_id{
+	cursor: pointer;
+}
+
+
+.order_bill{
+font-size: 20px;
+line-height: 19px;
+margin: 2px 0px;
+}
+#total_amount_disco{
+line-height: 35px;
+margin: 2px 0px;
+}
+
+
+#transaction_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#transaction_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#cashbox_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#cashbox_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#booking_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#booking_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#produc_dis_on_sale_info .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#produc_dis_on_sale_info .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#salary_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#salary_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#catering_discripi .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#catering_discripi .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#invoice_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#invoice_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#order_details_dis_produc .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#order_details_dis_produc .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#product_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#product_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#catego_discriptt .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#catego_discriptt .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#tavle_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#tavle_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+#expense_discrip .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#expense_discrip .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+
+#ordertypeid .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#ordertypeid .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+
+#orderplaceid .ui-selecting { 
+    background:rgba(220,220,220,0.4);
+ }
+#orderplaceid .ui-selected {
+    background:rgba(220,220,220,0.6);
+}
+.sdp_entry{
+color: red;
+width: 80px;
+height: 34px;
+background-color: #18D6DA;
+}
+
+#invoice_stdate,#invoice_enddate{
+font-size: 22px;
+}
+#ordertypeid span , #orderplaceid span {
+	cursor: pointer;
+	font-size: 20px;
+	/* font-weight: bold; */
+}
+
+
+
+#myTabContent{
+	width: 35%;
+    float: right;
+}
+#table_info_li{
+	border: 1px solid #2B547C;
+	width: 63%;
+	float: left;
+	position: absolute;
+	height: 100%;
+}
+#table_info_li li {
+    float: left;
+    position: absolute;
+}
+#table_info_li li a{
+	width: 100%;
+	height: 100%;
+}
+
+.tavle_designs{
+	width: 900px;
+	height: 800px;
+}
+.resiz_drag{
+	position: absolute;
+	border-radius: 5px;
+	resize:both;
+	overflow:auto;
+}
+
+#graphical_view{
+	border: 1px solid #526B52;
+    width: 87%;
+    height: 93%;
+    margin-left: -15px;
+}
+
+.ui-autocomplete{z-index: 999999999;}
+
+
+
+
+/* for Date Picker  */
+
+::-webkit-datetime-edit { padding: .1em; }
+::-webkit-datetime-edit-fields-wrapper { background: silver; width: 200px;}
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: blue; }
+::-webkit-datetime-edit-day-field { color: green; }
+::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { background: orange; width: 30px; height: 30px;}
